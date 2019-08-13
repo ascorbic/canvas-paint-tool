@@ -128,10 +128,11 @@ const continueStroke = newPoint => {
 // Event helpers
 
 const startStroke = point => {
-  currentAngle = undefined;
-  currentBrush = makeBrush(strokeWidth);
-  drawing = true;
-  latestPoint = point;
+    colour = document.getElementById("colourInput").value;
+    currentAngle = undefined;
+    currentBrush = makeBrush(strokeWidth);
+    drawing = true;
+    latestPoint = point;
 };
 
 const getTouchPoint = evt => {
