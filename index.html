@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Drawing tools</title>
-    <style>
-      body {
-        margin: 0;
-      }
-      canvas {
-        border: 2px solid black;
-      }
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Drawing tools</title>
+        <style>
+            body {
+                margin: 0;
+                background-color: black;
+            }
 
-      #colourInput {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-      }
-    </style>
-    <script src="src/index.js" defer></script>
-  </head>
-  <body>
-      <canvas id="canvas" height="450" width="800"></canvas>
-      <input type="color" id="colourInput" value="#3d34a5" />
-  </body>
+            canvas {
+                background-color: white;
+            }
+
+            #colourInput {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+            }
+        </style>
+        <script src="src/index.js" defer></script>
+    </head>
+    <body>
+        <canvas id="canvas" height="450" width="800"></canvas>
+        <input type="color" id="colourInput" value="#3d34a5" />
+    </body>
 </html>

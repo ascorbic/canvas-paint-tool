@@ -1,18 +1,23 @@
 {
-  "name": "paint-tool-final",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
-  "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
-  },
-  "dependencies": {
-    "tinycolor2": "1.4.1"
-  },
-  "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
-  },
-  "keywords": []
+    "name": "canvas-paint-tool",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "license": "MIT",
+    "scripts": {
+        "start": "parcel index.html --open",
+        "build": "parcel build index.html"
+    },
+    "dependencies": {
+        "tinycolor2": "1.4.1"
+    },
+    "devDependencies": {
+        "@babel/core": "7.2.0",
+        "parcel-bundler": "^1.6.1"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "proseWrap": "always"
+    },
+    "keywords": []
 }
